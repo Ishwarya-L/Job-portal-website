@@ -1,0 +1,78 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Connect Hub - Location</title>
+
+    <style>
+        body { text-align: center; }
+        iframe { border: 2px solid black; }
+    </style>
+</head>
+
+<body>
+
+<h1>CONNECT HUB</h1>
+<p>Find Us & Explore Job Locations</p>
+<hr>
+
+<!-- Navigation Links -->
+<a href="info.html" target="frame">Company Info</a> |
+<a href="jobs.html" target="frame">Job Details</a>
+
+<hr>
+
+<!-- Embedded Map using iframe (Frame) -->
+<h2>Our Location</h2>
+<iframe 
+    src="https://maps.google.com/maps?q=Chennai&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    width="500" height="300">
+</iframe>
+
+<hr>
+
+<!-- Image with Hotspots -->
+<h2>Explore Departments</h2>
+<img src="https://via.placeholder.com/400x250" usemap="#jobmap">
+
+<map name="jobmap">
+    <area shape="rect" coords="0,0,200,125" href="jobs.html" alt="IT Jobs">
+    <area shape="rect" coords="200,0,400,125" href="info.html" alt="HR Jobs">
+    <area shape="rect" coords="0,125,400,250" href="info.html" alt="Support">
+</map>
+
+<hr>
+
+<!-- Frame to Display Linked Pages -->
+<h2>Details</h2>
+<iframe name="frame" width="500" height="200"></iframe>
+
+<hr>
+<p>© 2026 Connect Hub</p>
+
+</body>
+</html>
+
+info.html
+<!DOCTYPE html>
+<html>
+<body style="text-align:center;">
+
+<h3>About Connect Hub</h3>
+<p>We connect talented candidates with leading companies.</p>
+<p>Visit us in Chennai for career guidance.</p>
+
+</body>
+</html>
+
+jobs.html
+<!DOCTYPE html>
+<html>
+<body style="text-align:center;">
+
+<h3>Job Openings</h3>
+<p>IT • HR • Analyst • Developer</p>
+<p>Apply now to grow your career.</p>
+
+</body>
+</html>
