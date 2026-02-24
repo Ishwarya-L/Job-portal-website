@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Connect Hub - Job Portal</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Center lists properly */
+        ul, ol {
+            list-style-position: inside;
+            display: inline-block;
+            text-align: left;   
+        }
+
+        /* Center table */
+        table {
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1 align="center">CONNECT HUB</h1>
+        <p align="center">Find Your Dream Job Today</p>
+        <hr>
+    </header>
+
+    <!-- Navigation Links -->
+    <nav>
+        <center>
+            <a href="#">Home</a> |
+            <a href="#">Jobs</a> |
+            <a href="#">Companies</a> |
+            <a href="#">Contact</a>
+        </center>
+    </nav>
+
+    <hr>
+
+    <!-- About Section -->
+    <section>
+        <h2>About Connect Hub</h2>
+        <p>
+            Connect Hub is a simple job portal designed to help job seekers connect with
+            top companies. You can explore job opportunities, understand hiring steps,
+            and apply easily.
+        </p>
+    </section>
+
+    <!-- (Job Categories) -->
+    <section>
+        <h2>Job Categories</h2>
+        <ul>
+            <li>Software Development</li>
+            <li>Data Science & Analytics</li>
+            <li>Web Design</li>
+            <li>Digital Marketing</li>
+            <li>Human Resources</li>
+            <li>Finance & Accounting</li>
+        </ul>
+    </section>
+
+    <!-- (Application Steps) -->
+    <section>
+        <h2>Steps to Apply</h2>
+        <ol>
+            <li>Register on the portal</li>
+            <li>Create your professional profile</li>
+            <li>Upload Resume</li>
+            <li>Search jobs based on skills</li>
+            <li>Apply for selected job</li>
+            <li>Attend Interview</li>
+        </ol>
+    </section>
+
+    <!--(Job Listings) -->
+    <section>
+        <h2>Latest Job Openings</h2>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <tr>
+                <th>Job ID</th>
+                <th>Job Title</th>
+                <th>Company</th>
+                <th>Location</th>
+                <th>Experience</th>
+                <th>Type</th>
+            </tr>
+
+            <tr>
+                <td>201</td>
+                <td>Junior Data Analyst</td>
+                <td>TechVision</td>
+                <td>Chennai</td>
+                <td>0-2 Years</td>
+                <td>Full Time</td>
+            </tr>
+
+            <tr>
+                <td>202</td>
+                <td>Frontend Developer</td>
+                <td>WebWorks</td>
+                <td>Bangalore</td>
+                <td>1-3 Years</td>
+                <td>Full Time</td>
+            </tr>
+
+            <tr>
+                <td>203</td>
+                <td>UI/UX Designer</td>
+                <td>DesignPro</td>
+                <td>Hyderabad</td>
+                <td>Freshers</td>
+                <td>Internship</td>
+            </tr>
+
+            <tr>
+                <td>204</td>
+                <td>HR Coordinator</td>
+                <td>PeopleCorp</td>
+                <td>Mumbai</td>
+                <td>1 Year</td>
+                <td>Contract</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Why Choose Connect Hub?</h2>
+        <p>
+            We provide trusted job listings, career guidance, and opportunities for both
+            freshers and experienced professionals.
+        </p>
+
+        <p><b>Email:</b> support@connecthub.com</p>
+        <p><b>Phone:</b> +91 98765 43210</p>
+    </section>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <center>
+            <p>© 2026 Connect Hub | Simple Static Job Portal</p>
+        </center>
+    </footer>
+
+</body>
+</html>
