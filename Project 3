@@ -1,0 +1,70 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Connect Hub - Job Portal</title>
+
+    <style>
+        body { text-align: center; }
+        iframe { border: 2px solid black; }
+    </style>
+</head>
+
+<body>
+
+<h1>CONNECT HUB</h1>
+<p>Find Your Dream Job</p>
+<hr>
+
+<!-- Anchors linked to iframe -->
+<a href="home.html" target="frame">Home</a> |
+<a href="jobs.html" target="frame">Jobs</a> |
+<a href="about.html" target="frame">About</a>
+
+<hr>
+
+<!-- Iframe where pages load -->
+<iframe name="frame" width="600" height="350"></iframe>
+
+<hr>
+<p>© 2026 Connect Hub</p>
+
+</body>
+</html>
+
+home.html
+<!DOCTYPE html>
+<html>
+<body style="text-align:center;">
+
+<h2>Welcome to Connect Hub</h2>
+<p>This portal helps you search and apply for jobs.</p>
+
+</body>
+</html>
+
+jobs.html
+<!DOCTYPE html>
+<html>
+<body style="text-align:center;">
+
+<h2>Available Jobs</h2>
+<p>Top companies are hiring now.</p>
+
+<img src="https://via.placeholder.com/300x200" alt="Jobs Image">
+
+<p>Apply today and build your career.</p>
+
+</body>
+</html>
+
+about.html
+<!DOCTYPE html>
+<html>
+<body style="text-align:center;">
+
+<h2>About Connect Hub</h2>
+<p>We connect skilled candidates with leading companies.</p>
+
+</body>
+</html>
