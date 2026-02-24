@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Connect Hub - Application Form</title>
+
+    <style>
+        body { text-align: center; }
+        form { display: inline-block; text-align: left; }
+        input, textarea { margin: 5px 0; }
+    </style>
+</head>
+
+<body>
+
+<h1>CONNECT HUB</h1>
+<p>Candidate Application Form</p>
+<hr>
+
+<form>
+    <label>Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <!-- Branch = Field / Specialization -->
+    <label>Branch:</label><br>
+    <input type="text" name="branch" placeholder="e.g. CSE, IT, ECE"><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female
+    <input type="radio" name="gender"> Other<br><br>
+
+    <label>Address:</label><br>
+    <textarea rows="4" cols="30"></textarea><br><br>
+
+    <input type="submit" value="Submit Application">
+    <input type="reset" value="Clear">
+</form>
+
+<hr>
+<p>© 2026 Connect Hub</p>
+
+</body>
+</html>
