@@ -1,0 +1,138 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Connect Hub - Student Records</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="logo">Connect Hub - Student Records</h1>
+    </header>
+
+    <!-- Animated Heading -->
+    <section class="title-section">
+        <h2 class="animated-text">Registered Students</h2>
+    </section>
+
+    <!-- Student Cards -->
+    <section class="student-container">
+
+        <div class="student-card">
+            <h3>Ishwarya L</h3>
+            <p>Course: B.Tech</p>
+            <p>Skills: JavaScript, Python</p>
+            <p>Email: ish@example.com</p>
+        </div>
+
+        <div class="student-card">
+            <h3>Arjun Kumar</h3>
+            <p>Course: B.E CSE</p>
+            <p>Skills: React, Node.js</p>
+            <p>Email: arjun@example.com</p>
+        </div>
+
+        <div class="student-card">
+            <h3>Meena R</h3>
+            <p>Course: B.Sc IT</p>
+            <p>Skills: UI/UX, Figma</p>
+            <p>Email: meena@example.com</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Connect Hub | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html> 
+
+style.css
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #1e3d59;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Animated Text Section */
+.title-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.animated-text {
+    font-size: 32px;
+    color: #1e3d59;
+    animation: slideIn 2s ease-in-out infinite alternate;
+}
+
+/* Keyframe for Text Animation */
+@keyframes slideIn {
+    from {
+        letter-spacing: 2px;
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        letter-spacing: 6px;
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Student Cards Layout */
+.student-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+/* Card Design */
+.student-card {
+    background-color: #f0f0f0;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.4s;
+    animation: fadeIn 2s ease forwards;
+}
+
+/* Card Hover Effect */
+.student-card:hover {
+    transform: scale(1.1);
+}
+
+/* Keyframe for Card Fade Effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #1e3d59;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
