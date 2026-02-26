@@ -1,0 +1,79 @@
+Index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Job Portal | Home</title>
+</head>
+<body style="margin: 0; font-family: 'Segoe UI', Arial; background-color: #f0f2f5;">
+
+    <nav style="background-color: #2c3e50; padding: 15px; color: white; display: flex; justify-content: space-around;">
+        <span style="font-weight: bold; font-size: 1.5rem;">JobConnect</span>
+        <div>
+            <a href="index.html" style="color: white; margin: 0 15px; text-decoration: none;">Home</a>
+            <a href="login.html" style="color: white; margin: 0 15px; text-decoration: none;">Login</a>
+            <a href="register.html" style="color: white; margin: 0 15px; text-decoration: none;">Register</a>
+        </div>
+    </nav>
+
+    <div style="text-align: center; padding: 100px 20px;">
+        <h1 style="font-size: 3rem; color: #333;">Find Your Next Big Opportunity</h1>
+        <p style="color: #666; font-size: 1.2rem;">Over 10,000+ jobs listed this week.</p>
+        <button style="background-color: #3498db; color: white; border: none; padding: 15px 30px; font-size: 1rem; border-radius: 5px; cursor: pointer;">Search Jobs</button>
+    </div>
+
+</body>
+</html>
+
+Login.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Job Portal | Login</title>
+</head>
+<body style="height: 100vh; display: flex; align-items: center; justify-content: center; background-color: #f4f7f6; font-family: Arial;">
+
+    <div style="background: white; padding: 40px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 350px;">
+        <h2 style="text-align: center; color: #2c3e50; margin-bottom: 20px;">Welcome Back</h2>
+        
+        <label style="display: block; margin-bottom: 5px; color: #666;">Email</label>
+        <input type="email" placeholder="Enter email" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box;">
+        
+        <label style="display: block; margin-bottom: 5px; color: #666;">Password</label>
+        <input type="password" placeholder="Enter password" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box;">
+        
+        <button style="width: 100%; background-color: #27ae60; color: white; border: none; padding: 12px; border-radius: 4px; font-weight: bold; cursor: pointer;">Sign In</button>
+        
+        <p style="text-align: center; margin-top: 15px; font-size: 0.9rem;">
+            New here? <a href="register.html" style="color: #3498db; text-decoration: none;">Create an account</a>
+        </p>
+    </div>
+
+</body>
+</html>
+
+Register.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Job Portal | Login</title>
+</head>
+<body style="height: 100vh; display: flex; align-items: center; justify-content: center; background-color: #f4f7f6; font-family: Arial;">
+
+    <div style="background: white; padding: 40px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 350px;">
+        <h2 style="text-align: center; color: #2c3e50; margin-bottom: 20px;">Welcome Back</h2>
+        
+        <label style="display: block; margin-bottom: 5px; color: #666;">Email</label>
+        <input type="email" placeholder="Enter email" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box;">
+        
+        <label style="display: block; margin-bottom: 5px; color: #666;">Password</label>
+        <input type="password" placeholder="Enter password" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box;">
+        
+        <button style="width: 100%; background-color: #27ae60; color: white; border: none; padding: 12px; border-radius: 4px; font-weight: bold; cursor: pointer;">Sign In</button>
+        
+        <p style="text-align: center; margin-top: 15px; font-size: 0.9rem;">
+            New here? <a href="register.html" style="color: #3498db; text-decoration: none;">Create an account</a>
+        </p>
+    </div>
+
+</body>
+</html>
